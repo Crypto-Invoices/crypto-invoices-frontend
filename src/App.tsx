@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AdminLayout from './layouts/AdminLayout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AdminLayout>
+      <div className='w-full'>
+        <div className='bg-white'>invoices</div>
+        <div className='p-10'>
+          <div className='bg-white my-2'>invoice: uuid</div>
+          <div className='bg-white my-2'>invoice: uuid</div>
+          <div className='bg-white my-2'>invoice: uuid</div>
+          <div className='bg-white my-2'>invoice: uuid</div>
+          <div className='bg-white my-2'>invoice: uuid</div>
+          <div className='bg-white my-2'>invoice: uuid</div>
+          <div className='bg-white my-2'>invoice: uuid</div>
+        </div>
+      </div>
+    </AdminLayout>
   );
 }
 
