@@ -3,7 +3,7 @@ import React from 'react'
 import TopBar from 'components/shared/TopBar'
 import LeftSideBar from 'components/shared/LeftSideBar'
 
-const AdminLayout = ({ children }: React.PropsWithChildren) => {
+const PanelLayout = ({ children }: React.PropsWithChildren) => {
     return (
         <>
             <TopBar />
@@ -19,4 +19,4 @@ const AdminLayout = ({ children }: React.PropsWithChildren) => {
     )
 }
 
-export default AdminLayout
+export default PanelLayout

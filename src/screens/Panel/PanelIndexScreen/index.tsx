@@ -1,6 +1,8 @@
-import PanelLayout from "layouts/PanelLayout"
+import React from 'react'
 
-const IndexScreen = () => {
+import PanelLayout from 'layouts/PanelLayout'
+
+const PanelIndexScreen = () => {
     return (
         <PanelLayout>
             <div className='w-full'>
@@ -19,4 +21,4 @@ const IndexScreen = () => {
     )
 }
 
-export default IndexScreen
+export default PanelIndexScreen
