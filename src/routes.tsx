@@ -6,6 +6,7 @@ import RegisterScreen from 'screens/Auth/RegisterScreen'
 import PanelIndexScreen from "screens/Panel/PanelIndexScreen"
 
 import IndexScreen from "screens/IndexScreen"
+import PanelInvoicesScreen from "screens/Panel/PanelInvoicesScreen"
 
 export interface IAppRoute {
     name: string
@@ -13,7 +14,7 @@ export interface IAppRoute {
     element: React.ReactNode
 }
 
-const AuthRoutes: IAppRoute[] = [
+export const AuthRoutes: IAppRoute[] = [
     {
         name: 'Login',
         path: '/login',
@@ -31,6 +32,11 @@ export const PanelRoutes: IAppRoute[] = [
         name: 'Dashboard',
         path: '/panel',
         element: <PanelIndexScreen />
+    },
+    {
+        name: 'Invoices',
+        path: '/panel/invoices',
+        element: <PanelInvoicesScreen />
     }
 ]
 
