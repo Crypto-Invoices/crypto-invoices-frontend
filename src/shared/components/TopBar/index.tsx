@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import { AuthRoutes } from 'routes'
+import { AuthRoutes } from 'auth/routes'
 
 const TopBar = () => {
     return (

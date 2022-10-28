@@ -1,7 +1,7 @@
 import React from 'react'
 
-import TopBar from 'components/shared/TopBar'
-import LeftSideBar from 'components/shared/LeftSideBar'
+import TopBar from 'shared/components/TopBar'
+import LeftSideBar from 'shared/components/LeftSideBar'
 
 const PanelLayout = ({ children }: React.PropsWithChildren) => {
     return (

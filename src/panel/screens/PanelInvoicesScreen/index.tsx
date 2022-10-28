@@ -1,6 +1,6 @@
 import React from "react"
 
-import PanelLayout from "layouts/PanelLayout"
+import PanelLayout from "panel/layouts/PanelLayout"
 
 enum InvoiceStatus {
     PENDING,

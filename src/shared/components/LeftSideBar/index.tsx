@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import { PanelRoutes } from 'routes'
+import { PanelRoutes } from 'panel/routes'
 
 const LeftSideBar = () => {
     return (
